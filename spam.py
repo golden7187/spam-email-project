@@ -11,13 +11,13 @@ import sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Loading the saved model
-loaded_model = pickle.load(open('C:/Users/golden deo/OneDrive/Desktop/spam/spam_mail_prediction_model.sav', 'rb'))
+loaded_model = pickle.load(open('spam_mail_prediction_model.sav', 'rb'))
 
 # Creating a TfidfVectorizer object
 vectorizer = TfidfVectorizer()
 
 # Loading the vocabulary and IDF values
-vectorizer = pickle.load(open('C:/Users/golden deo/OneDrive/Desktop/spam/vectorizer.pkl', 'rb'))
+vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
 
 # Creating a function for prediction
 def spam_email_model(input_mail):
