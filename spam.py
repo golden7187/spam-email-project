@@ -49,5 +49,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-# Loading the saved model
-loaded_model = pickle.load(open('C:/Users/golden deo/OneDrive/Desktop/spam/spam_mail_prediction_model.sav', 'rb'))
+
